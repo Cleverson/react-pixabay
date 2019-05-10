@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
 const Paginacao = props => {
 	return (
@@ -7,13 +8,13 @@ const Paginacao = props => {
 				onClick={props.paginaAnterior}
 				type="button"
 				className="btn btn-info mr-1">
-				&larr; Anterior
+				<FaArrowLeft /> Anterior
 			</button>
 			<button
 				onClick={props.paginaSeguinte}
 				type="button"
 				className="btn btn-info">
-				Seguinte &rarr;
+				Seguinte <FaArrowRight />
 			</button>
 		</div>
 	)

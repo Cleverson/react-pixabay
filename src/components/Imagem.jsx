@@ -1,5 +1,12 @@
 import React from 'react'
-import { FaThumbsUp, FaEye, FaHeart, FaComments } from 'react-icons/fa'
+import {
+	FaThumbsUp,
+	FaEye,
+	FaHeart,
+	FaComments,
+	FaArrowLeft,
+	FaArrowRight
+} from 'react-icons/fa'
 
 const Imagem = props => {
 	const {
